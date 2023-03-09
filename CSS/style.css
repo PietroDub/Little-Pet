@@ -3,7 +3,7 @@ body {
 }
 
 .fundoimagem {
-    background-image: url(../img/banner.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -12,8 +12,8 @@ body {
 
 .masthead {
     background: #74f1ae;
-    height: 15mm;
-    width: 60mm;
+    height: 30mm;
+    width: 396mm;
     right: 0;
     left: 0;
 }
@@ -22,17 +22,31 @@ body {
     list-style: none;
     display: block;
     float: left;
-    padding-left: 2em;
+    padding-left: 3em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bold;
+
 }
 
 .masthead li a {
     text-decoration: none;
     color: white;
 }
-.mainNav{
-   display: flex;
-   justify-content: center;
+
+.mainNav {
+    display: flex;
+    justify-content: center;
+}
+
+.Pesquisa {
+    margin-left: 50%;
+    height: 15mm;
+    width: 396mm;
+}
+
+.logo {
+    margin-left: 10px;
+
+
 }
