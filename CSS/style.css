@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.fundoimagem {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+
+.masthead {
+    background: #74f1ae;
+    height: 15mm;
+    width: 60mm;
+    right: 0;
+    left: 0;
+}
+
+.masthead li {
+    list-style: none;
+    display: block;
+    float: left;
+    padding-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.masthead li a {
+    text-decoration: none;
+    color: white;
+}
+.mainNav{
+   display: flex;
+   justify-content: center;
+}
