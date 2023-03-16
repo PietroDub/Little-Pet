@@ -2,32 +2,27 @@ body {
     margin: -100;
 }
 .masthead {
-    background: #74f1ae;
-    height: 20mm;
-    width: 600mm;
-    right: 10;
-    left: 20;
-    position: inherit;
-    display: flex;
-    gap: 1px;
+  
     
 }
 .Pesquisa{
     background: #74f1ae;
-    width: 490px;
-    margin: 20px;
+    width: 680px;
+    margin: 22px;
     display: flex;
     justify-content: space-evenly;
+    display:flex;
+    gap: 10px;
   }
   
 .search-bar{
     margin: 0 auto;
     width: 100%;
-    height: 14px;
+    height: 15px;
     padding: 0 20px;
     font-size: 1rem;
-    border: 3px solid #ced0ce;
-    outline: none;
+    border: 3px solid #ced0ce; 
+    outline: none; 
     }
 :-webkit-input-placeholder{
         transition: opacity 0.45s ease; 
@@ -48,19 +43,19 @@ body {
     list-style: none;
     display: block;
     float: left;
-    padding-left: 8em;
+    padding-left: 6em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bold;
     display: flex;
-    gap: 10px;
-
 }
 
 
 .masthead li a {
     text-decoration: none;
     color: white;
+    gap: 1px;
+    align-self: left;
 }
 .logo {
     margin-left: 10px;
@@ -71,13 +66,16 @@ body {
 	color:#fff; 
 	font-size:0.875em; 
 }
-.main_footer .content { 
-    float:left; 
-    width:90%; 
-    margin:0 5%; 
-    padding: 5em 0; 
-}
-.container { 
+.main_footer .content {
+    float: left;
+    width: 90%;
+    margin: 0 5%;
+    height: 80px;
+    padding: 5em 0;
+    display: flex;
+    align-items: center;
+    }
+    .container { 
     float:left;
      width:100%;
      }
@@ -202,8 +200,25 @@ head {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+.laranja-verde{
+    display: flex;
+    justify-content: end;
+    margin: auto;
+height: 20px;
+width: 326px;
+}
+.nome{
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 100px;
+    background: #74f1ae;
+   font-family: 'open_sansregular';
+   margin: none;
+   position: 0;
+   top: 0;
 
-
+}
 
   
   
